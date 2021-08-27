@@ -8,10 +8,11 @@ import learn.solarfarm.models.SolarPanelKey;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;
 
+import javax.annotation.PostConstruct;
 import java.util.List;
 
 @Component
-@Profile("file-repository")
+@Profile("console")
 public class Controller {
     private final View view;
     private final SolarPanelService service;
@@ -21,6 +22,8 @@ public class Controller {
         this.service = service;
     }
 
+    // Add PostConstruct to this method so Spring knows to run this method once this bean is finished being created.
+    @PostConstruct
     public void run() {
         view.displayHeader("Welcome to Solar Farm");
         try {

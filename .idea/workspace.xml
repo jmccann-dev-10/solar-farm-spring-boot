@@ -5,20 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c6077f4-66a7-43dc-8916-80ac8fb389d7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/learn/solarfarm/controller/SolarPanelController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/learn/solarfarm/controller/SolarPanelControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/learn/solarfarm/domain/SolarPanelServiceMockitoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/databaseScripts/createSolarFarm.sql" beforeDir="false" afterPath="$PROJECT_DIR$/databaseScripts/createSolarFarm.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learn/solarfarm/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/solarfarm/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learn/solarfarm/data/SolarPanelFileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/solarfarm/data/SolarPanelFileRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-file-repository.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learn/solarfarm/controller/SolarPanelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/solarfarm/controller/SolarPanelController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learn/solarfarm/data/SolarPanelJdbcTemplateRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/solarfarm/data/SolarPanelJdbcTemplateRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/learn/solarfarm/ui/ConsoleIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/solarfarm/ui/ConsoleIO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/learn/solarfarm/ui/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/solarfarm/ui/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/learn/solarfarm/ui/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/solarfarm/ui/View.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/learn/solarfarm/data/DbTestConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/learn/solarfarm/data/SolarPanelJdbcTemplateRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/learn/solarfarm/data/SolarPanelJdbcTemplateRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -39,7 +36,7 @@
         <entry key="$PROJECT_DIR$/../../.." value="spring-boot-conversion" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -65,7 +62,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -79,7 +76,7 @@
       <recent name="learn.solarfarm.data" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SolarPanelControllerTest">
+  <component name="RunManager" selected="Spring Boot.App">
     <configuration name="SolarPanelControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="solar-farm-jdbctemplate" />
       <extension name="coverage">
@@ -127,22 +124,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolarPanelControllerTest.shouldFindBySection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="solar-farm-jdbctemplate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learn.solarfarm.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="learn.solarfarm.controller" />
-      <option name="MAIN_CLASS_NAME" value="learn.solarfarm.controller.SolarPanelControllerTest" />
-      <option name="METHOD_NAME" value="shouldFindBySection" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SolarPanelControllerTest.shouldNotCreateWhenIdIsPresent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="solar-farm-jdbctemplate" />
       <extension name="coverage">
@@ -159,13 +140,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="solar-farm-spring-boot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learn.solarfarm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="learn.solarfarm.App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.App" />
         <item itemvalue="JUnit.SolarPanelControllerTest" />
         <item itemvalue="JUnit.SolarPanelControllerTest.shouldNotCreateWhenIdIsPresent" />
         <item itemvalue="JUnit.SolarPanelControllerTest.shouldCreate" />
         <item itemvalue="JUnit.SolarPanelControllerTest.shouldFindByKey" />
-        <item itemvalue="JUnit.SolarPanelControllerTest.shouldFindBySection" />
       </list>
     </recent_temporary>
   </component>
@@ -182,6 +176,7 @@
       <workItem from="1629822034148" duration="11044000" />
       <workItem from="1629982997422" duration="4193000" />
       <workItem from="1629994239240" duration="12009000" />
+      <workItem from="1630070486872" duration="1699000" />
     </task>
     <servers />
   </component>
@@ -209,9 +204,9 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/learn/solarfarm/controller/SolarPanelController.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="3" />
+          <url>file://$PROJECT_DIR$/src/main/java/learn/solarfarm/data/SolarPanelFileRepository.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

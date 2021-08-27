@@ -5,13 +5,14 @@ import learn.solarfarm.domain.SolarPanelResult;
 import learn.solarfarm.domain.SolarPanelService;
 import learn.solarfarm.models.SolarPanel;
 import learn.solarfarm.models.SolarPanelKey;
+import org.springframework.context.annotation.Profile;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.awt.*;
 import java.util.List;
 
+@Profile("rest")
 @RestController
 @RequestMapping("solar-panel")
 public class SolarPanelController {

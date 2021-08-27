@@ -9,7 +9,7 @@ import java.util.EnumSet;
 import java.util.Scanner;
 
 @Component
-@Profile("file-repository")
+@Profile("console")
 public class ConsoleIO implements TextIO {
 
     private final Scanner console = new Scanner(System.in);

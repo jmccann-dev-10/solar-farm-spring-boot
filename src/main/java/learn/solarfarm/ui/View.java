@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 import java.util.List;
 
 @Component
-@Profile("file-repository")
+@Profile("console")
 public class View {
     private final TextIO io;
 
